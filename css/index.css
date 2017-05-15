@@ -5,7 +5,7 @@ body {
     cursor: pointer;
 }
 
-ls@font-face {
+@font-face {
     font-family: 'CooperBlack'; /*a name to be used later*/
     src: url('../fonts/cooper-black.ttf'); /*URL to font*/
 }
