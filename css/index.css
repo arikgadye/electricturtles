@@ -1,8 +1,8 @@
 body {
     cursor: url('../TURTLE.png'), pointer;
 }
-a:link {
-    cursor: url('../TURTLE.png'), pointer;
+.social {
+    cursor: pointer;
 }
 
 ls@font-face {
