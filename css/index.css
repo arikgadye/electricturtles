@@ -7,11 +7,18 @@ body {
 
 @font-face {
     font-family: 'CooperBlack'; /*a name to be used later*/
-    src: url('../fonts/cooper-black.ttf'); /*URL to font*/
+    src: url('../fonts/cooper-black.ttf') format('eot'),
+         url('../fonts/cooper-black.ttf') format('woff'),
+         url('../fonts/cooper-black.ttf') format('truetype'),
+         url('../fonts/cooper-black.ttf') format('svg');
 }
 @font-face {
     font-family: 'OpenSans';
-    src: url('../fonts/opensans.ttf');
+    src: url('../fonts/opensans.ttf') format('eot'),
+         url('../fonts/opensans.ttf') format('woff'),
+         url('../fonts/opensans.ttf') format('truetype'),
+         url('../fonts/opensans.ttf') format('svg');
+
 }
 @media only screen and (max-width: 768px) {
     h1{
