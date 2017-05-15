@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'CooperBlack'; /*a name to be used later*/
+    src: url('./cooper-black.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('./opensans.ttf');
+}
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size:60px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 100px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .weare, .quote{
+        font-size:20px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .weare, .quote {
+        font-size: 40px;
+    }
+}
+body {
+    background-color: #66B147;
+}
+h1 {
+    color: lightblue;
+}
+.yo {
+    color: blue
+}
+
+/* Facebook */
+
+.fa-facebook {
+    font-size: 230%;
+    color: white;
+}
+.fa-instagram {
+    font-size: 230%;
+    color: white;
+}
+.fa-youtube {
+    font-size: 230%;
+    color: white;
+}
+.fa-bullhorn {
+    color: white;
+    font-size: 330%;
+}
+h1 {
+    color: white;
+    font-family: CooperBlack;
+}
+
+.quote {
+    color: white;
+    font-family: OpenSans;
+}
+.weare {
+    font-weight: bold;
+    color: white;
+    font-family: OpenSans;
+}
+ul {
+  list-style-type: none;
+}
+.gigs {
+    color: white;
+    font-family: OpenSans;
+}
+.responsive-video {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 60px; overflow: hidden;
+}
+
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
