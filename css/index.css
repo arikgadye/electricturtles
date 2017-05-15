@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'CooperBlack'; /*a name to be used later*/
-    src: url('./fonts/cooper-black.ttf'); /*URL to font*/
+    src: url('../fonts/cooper-black.ttf'); /*URL to font*/
 }
 @font-face {
     font-family: 'OpenSans';
-    src: url('./fonts/opensans.ttf');
+    src: url('../fonts/opensans.ttf');
 }
 @media only screen and (max-width: 768px) {
     h1{
