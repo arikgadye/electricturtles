@@ -1,3 +1,9 @@
+body {
+    cursor: url('../TURTLE.png'), pointer;
+}
+a:link {
+    cursor: url('../TURTLE.png'), pointer;
+}
 
 ls@font-face {
     font-family: 'CooperBlack'; /*a name to be used later*/

@@ -1,24 +1,24 @@
-$(document).ready(function(){
-    animateDiv(); 
-});
+// $(document).ready(function(){
+//     animateDiv(); 
+// });
 
-function makeNewPosition(){
+// function makeNewPosition(){
     
-    // Get viewport dimensions (remove the dimension of the div)
-    var h = $(window).height() - 50;
-    var w = $(window).width() - 50;
+//     // Get viewport dimensions (remove the dimension of the div)
+//     var h = $(window).height() - 50;
+//     var w = $(window).width() - 50;
     
-    var nh = Math.floor(Math.random() * h);
-    var nw = Math.floor(Math.random() * w);
+//     var nh = Math.floor(Math.random() * h);
+//     var nw = Math.floor(Math.random() * w);
     
-    return [nh,nw];    
+//     return [nh,nw];    
     
-}
+// }
 
-function animateDiv(){
-    var newq = makeNewPosition();
-    $('.a').animate({ top: newq[0], left: newq[1] }, function(){
-      animateDiv();        
-    });
+// function animateDiv(){
+//     var newq = makeNewPosition();
+//     $('.a').animate({ top: newq[0], left: newq[1] }, function(){
+//       animateDiv();        
+//     });
     
-};
+// };
