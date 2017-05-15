@@ -46,20 +46,20 @@ h1 {
 /* Facebook */
 
 .fa-facebook {
-    font-size: 560%;
+    font-size: 460%;
     color: white;
 }
 .fa-instagram {
-    font-size: 560%;
+    font-size: 460%;
     color: white;
 }
 .fa-youtube {
-    font-size: 560%;
+    font-size: 460%;
     color: white;
 }
 .fa-bullhorn {
     color: white;
-    font-size: 390%;
+    font-size: 290%;
 }
 
 @media(min-width:500px){
