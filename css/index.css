@@ -1,9 +1,6 @@
 body {
     cursor: url('../TURTLE.png'), pointer;
 }
-.social {
-    cursor: pointer;
-}
 
 @font-face {
     font-family: 'CooperBlack'; /*a name to be used later*/
@@ -37,7 +34,7 @@ body {
 }
 @media only screen and (min-width: 768px) {
     .weare, .quote {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 body {
@@ -113,19 +110,16 @@ h1 {
 
 .quote {
     color: white;
-    font-family: OpenSans;
+    font-family: CooperBlack;
 }
 .weare {
     font-weight: bold;
     color: white;
-    font-family: OpenSans;
-}
-ul {
-  list-style-type: none;
+    font-family: CooperBlack;
 }
 .gigs {
     color: white;
-    font-family: OpenSans;
+    font-family: CooperBlack;
 }
 .responsive-video {
     position: relative;
@@ -148,4 +142,24 @@ width: 50px;
 height:50px;
 position:fixed;
     
+}
+.navbar {
+    background: #ff69b4;
+    border: none;
+    cursor: pointer;
+}
+.navbar a {
+    font-family: CooperBlack;
+    color: white !important;
+}
+.navbar-brand {
+    color: black !important;
+}
+.links {
+    font-size: 20px;
+}
+
+.social {
+    margin-top: 10px;
+    display: inline-flex;
 }
