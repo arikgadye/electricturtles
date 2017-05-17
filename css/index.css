@@ -117,7 +117,7 @@ h1 {
     color: white;
     font-family: CooperBlack;
 }
-.gigs {
+#gigs {
     color: white;
     font-family: CooperBlack;
 }
@@ -163,3 +163,28 @@ position:fixed;
     margin-top: 10px;
     display: inline-flex;
 }
+.press h3 {
+    color: #ff69b4;
+    font-family: CooperBlack;
+}
+.press img {
+    padding-bottom: 10px;
+}
+.press-info h3{
+    font-family: CooperBlack;
+}
+.press-info p {
+    color: white;
+    font-size: 16px;
+    font-family: OpenSans;
+}
+#visit {
+    font-size: 20px;
+    font-weight: bold;
+}
+#visit a:hover {
+    color: white;
+}
+#visit a {
+    color: black;
+};
