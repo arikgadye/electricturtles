@@ -104,12 +104,14 @@ h1 {
     font-size: 360%;
     color: white;
 }
-.fa-bullhorn {
+.fa-bullhorn, .fa-bolt {
     color: white;
     font-size: 190%;
 }
 
-
+.fa-bolt{
+    display: none;
+}
 @media(min-width:500px){
     .fa-facebook {
         font-size: 260%;
