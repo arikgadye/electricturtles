@@ -1,5 +1,5 @@
 a {
-    color: #66B147; 
+    color: black; 
 }
 body {
     cursor: url('../TURTLE.png'), pointer;
@@ -237,4 +237,8 @@ img.a {
 }
 #visit a {
     color: black;
+}
+
+.img-responsive {
+    margin: 0 auto;
 }
