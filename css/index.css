@@ -22,15 +22,13 @@ body {
     url('../fonts/opensans.ttf') format('svg');
 
 }
-@media only screen and (max-width: 768px) {
-    h1{
-        font-size:60px;
-    }
-}
-@media only screen and (min-width: 768px) {
-    h1 {
-        font-size: 100px;
-    }
+@font-face {
+    font-family: 'PermanentMarker';
+    src: url('../fonts/PermanentMarker.ttf') format('eot'),
+    url('../fonts/PermanentMarker.ttf') format('woff'),
+    url('../fonts/PermanentMarker.ttf') format('truetype'),
+    url('../fonts/PermanentMarker.ttf') format('svg');
+
 }
 @media only screen and (max-width: 768px) {
     .weare, .quote{
@@ -43,52 +41,9 @@ body {
     }
 }
 body {
-    background-color: #66B147;
-}
-h1 {
-    color: lightblue;
-
-}
-#one {
-    -webkit-animation: spin 4s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: spin 4s; /* Firefox < 16 */
-    -ms-animation: spin 4s; /* Internet Explorer */
-    -o-animation: spin 4s; /* Opera < 12.1 */
-    animation: spin 4s;
-    
-}
-#two {
-    -webkit-animation: spinRight 4s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: spinRight 4s; /* Firefox < 16 */
-    -ms-animation: spinRight 4s; /* Internet Explorer */
-    -o-animation: spinRight 4s; /* Opera < 12.1 */
-    animation: spinRight 4s;
-}
-@-moz-keyframes spin {
-    from { -moz-transform: rotate(0deg); }
-    to { -moz-transform: rotate(360deg); }
-}
-@-webkit-keyframes spin {
-    from { -webkit-transform: rotate(0deg); }
-    to { -webkit-transform: rotate(360deg); }
-}
-@keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+    /*background-color: #66B147;*/
 }
 
-@-moz-keyframes spinRight {
-    from { -moz-transform: rotate(360deg); }
-    to { -moz-transform: rotate(0deg); }
-}
-@-webkit-keyframes spinRight {
-    from { -webkit-transform: rotate(360deg); }
-    to { -webkit-transform: rotate(0deg); }
-}
-@keyframes spinRight {
-    from {transform:rotate(360deg);}
-    to {transform:rotate(0deg);}
-}
 .yo {
     color: blue
 }
@@ -97,18 +52,22 @@ h1 {
 
 .fa-facebook {
     font-size: 360%;
-    color: white;
+    color: black !important;
 }
 .fa-instagram {
     font-size: 360%;
-    color: white;
+    color: black !important;
 }
 .fa-youtube {
     font-size: 360%;
-    color: white;
+    color: black !important;
 }
-.fa-bullhorn, .fa-bolt {
-    color: white;
+.fa-spotify {
+    font-size: 360%;
+    color: black !important;
+}
+.fa-bullhorn {
+    color: black !important;
     font-size: 190%;
 }
 
@@ -128,6 +87,10 @@ h1 {
         font-size: 260%;
         color: white;
     }
+    .fa-spotify {
+        font-size: 260%;
+        color: white;
+    }
     .fa-bullhorn {
         color: white;
         font-size: 360%;
@@ -136,15 +99,15 @@ h1 {
 @media(min-width: 768px){
     .fa-facebook {
         font-size: 230%;
-        color: white;
     }
     .fa-instagram {
         font-size: 230%;
-        color: white;
     }
     .fa-youtube {
         font-size: 230%;
-        color: white;
+    }
+    .fa-spotify {
+        font-size: 230%;
     }
     .fa-bullhorn {
         color: white;
@@ -153,22 +116,41 @@ h1 {
 }
 
 h1 {
-    color: white;
-    font-family: CooperBlack;
+    font-size: 20px;
+    color: black;
+    font-family: PermanentMarker;
 }
 
+@media(min-width: 500px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+
 .quote {
-    color: white;
-    font-family: CooperBlack;
+    color: black;
+    font-family: PermanentMarker;
 }
 .weare {
     font-weight: bold;
-    color: white;
-    font-family: CooperBlack;
+    color: black;
+    font-family: PermanentMarker;
 }
 #gigs {
-    color: white;
-    font-family: CooperBlack;
+    font-size: 18px;
+    color: black;
+    font-family: PermanentMarker;
+}
+@media(min-width:500px) {
+    #gigs {
+        font-size: 22px
+    }
+}
+@media(min-width:768px) {
+    #gigs {
+        font-size: 30px;
+    }
 }
 .responsive-video {
     position: relative;
@@ -176,7 +158,6 @@ h1 {
     padding-top: 60px; overflow: hidden;
     margin-bottom: 10px;
 }
-
 
 .responsive-video iframe,
 .responsive-video object,
@@ -193,24 +174,43 @@ img.a {
     position:fixed;
     
 }
-.navbar {
-    background: #ff69b4;
-    border: none;
-    cursor: pointer;
+.navbar-fixed-top {
+    background-color: black;
+    color: white;
 }
-.navbar a {
-    font-family: CooperBlack;
+.navbar-fixed-top a {
     color: white !important;
 }
-.navbar-brand {
-    color: black !important;
+.navbar {
+    border: none;
+}
+.navbar a {
+    font-family: PermanentMarker;
+}
+#home-navbar {
+    background-color: transparent; !important;
+    color: black;
+    border: none;
+}
+#home-navbar a {
+    font-size: 18px;
+}
+@media (min-width: 500px) {
+    #home-navbar a {
+        font-size: 18px;
+    }
+}
+@media (min-width: 768px) {
+    #home-navbar a {
+        font-size: 22px;
+    }
 }
 .links {
+    display: inline-flex;
     font-size: 20px;
 }
 
 .social {
-    margin-top: 10px;
     display: inline-flex;
 }
 .press h3 {
@@ -241,4 +241,8 @@ img.a {
 
 .img-responsive {
     margin: 0 auto;
+}
+#welcome {
+    color: white;
+    background-color: black;
 }
