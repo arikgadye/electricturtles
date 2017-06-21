@@ -2,7 +2,7 @@ a {
     color: black; 
 }
 body {
-    cursor: url('../TURTLE.png'), pointer;
+    /*cursor: url('../TURTLE.png'), pointer;*/
     overflow-x: hidden !important;
     /*overflow: hidden;*/
 }
@@ -50,19 +50,19 @@ body {
 
 /* Facebook */
 
-.fa-facebook {
+.social-home .fa-facebook {
     font-size: 360%;
     color: black !important;
 }
-.fa-instagram {
+.social-home .fa-instagram {
     font-size: 360%;
     color: black !important;
 }
-.fa-youtube {
+.social-home .fa-youtube {
     font-size: 360%;
     color: black !important;
 }
-.fa-spotify {
+.social-home .fa-spotify {
     font-size: 360%;
     color: black !important;
 }
@@ -70,47 +70,52 @@ body {
     color: black !important;
     font-size: 190%;
 }
-
+.social {
+    display: inline-flex;
+}
+.social-nav {
+    margin-top: 10px;
+    color: white;
+    font-size: 200%;
+}
 .fa-bolt{
     display: none;
 }
+.social-home {
+    color: white;
+}
 @media(min-width:500px){
-    .fa-facebook {
+    .social-home .fa-facebook {
         font-size: 260%;
-        color: white;
     }
-    .fa-instagram {
+    .social-home .fa-instagram {
         font-size: 260%;
-        color: white;
     }
-    .fa-youtube {
+    .social-home .fa-youtube {
         font-size: 260%;
-        color: white;
     }
-    .fa-spotify {
+    .social-home .fa-spotify {
         font-size: 260%;
-        color: white;
     }
-    .fa-bullhorn {
-        color: white;
+    .social-home .fa-bullhorn {
         font-size: 360%;
     }
 }
 @media(min-width: 768px){
-    .fa-facebook {
+    .social-home .fa-facebook {
         font-size: 230%;
     }
-    .fa-instagram {
+    .social-home .fa-instagram {
         font-size: 230%;
     }
-    .fa-youtube {
+    .social-home .fa-youtube {
         font-size: 230%;
     }
-    .fa-spotify {
+    .social-home .fa-spotify {
         font-size: 230%;
     }
-    .fa-bullhorn {
-        color: white;
+    .social-home .fa-bullhorn {
+        /*color: white;*/
         font-size: 330%;
     }
 }
@@ -210,9 +215,6 @@ img.a {
     font-size: 20px;
 }
 
-.social {
-    display: inline-flex;
-}
 .press h3 {
     color: #ff69b4;
     font-family: CooperBlack;
