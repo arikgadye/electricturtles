@@ -1,0 +1,39 @@
+.navbar {
+  background-color: @bg-dark;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+
+  .navbar-brand {
+    padding: 17.5px 15px;
+    color: @brand-primary;
+    font-size: 24px;
+    line-height: 29px;
+    height: 64px;
+  }
+
+  .navbar-nav {
+    & > li > a {
+      color: @brand-primary;
+      line-height: 29px;
+
+      @media (min-width: 768px) {
+        padding-top: 17.5px;
+        padding-bottom: 17.5px;
+      }
+    }
+
+    & >.active {
+      a,
+      a:hover {
+        background-color: @bg-dark;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .navbar-nav>li>a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
