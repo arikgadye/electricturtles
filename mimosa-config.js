@@ -1,14 +1,15 @@
 exports.config = {
   modules:[
-    "copy",
-    "rename",
-    "less",
-    "hogan-static",
-    "minify-html",
-    "minify-css"],
+  "copy",
+  "rename",
+  "less",
+  "hogan-static",
+  "minify-html",
+  "minify-img",
+  "minify-css"],
   copy: {
     extensions:["png", "html","js", "jpg", "ico",
-                "eot", "svg", "ttf", "woff", "woff2"]
+    "eot", "svg", "ttf", "woff", "woff2"]
   },
   minifyHtml: {
     options: {
@@ -17,9 +18,17 @@ exports.config = {
       removeEmptyAttributes: true
     }
   },
+  minifyImg: {
+    options: {
+      interlaced: false,
+      progressive: false,
+      optimizationLevel: 2
+    },
+    exts: [ "gif","jpeg","jpg","png" ]
+  },
   rename: {
     map:[
-      [/public\/html\/([a-z]+)\.html$/, "$1.html"]
+    [/public\/html\/([a-z]+)\.html$/, "$1.html"]
     ]
   },
   hoganStatic: {
