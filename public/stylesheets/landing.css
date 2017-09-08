@@ -92,6 +92,9 @@ hr.small {
   font-size: 280% !important;
   color: white !important;
 }
+.fa-amazon {
+  vertical-align: sub;
+}
 .responsive-video {
   position: relative;
   padding-bottom: 56.25%;
