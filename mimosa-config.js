@@ -55,7 +55,7 @@ exports.config = {
       },
       index: {
         title:"ELECTRIC TURTLES OFFICIAL WEBSITE",
-        desc: "A lightning-fast build tool for modern web development. Mimosa includes support for JavaScript, CSS, and template compilers, bower, linting, optimization, serving, RequireJS support, and Live Reload. It is also modular and pluggable for authoring your own functionality.",
+        desc: "ELECTRIC TURTLES is a rock band from San Francisco and Germany, making raw, sexy and funkadelic rock music.",
       }
     }
   }
