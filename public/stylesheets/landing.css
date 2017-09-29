@@ -32,19 +32,36 @@
 .navbar .navbar-nav > .active a:hover {
   background-color: black;
 }
-.social-nav {
-  margin-top: 10px;
-  color: white;
-  font-size: 170%;
-  display: inline-flex;
-}
 @media (max-width: 991px) and (min-width: 768px) {
   .navbar-nav > li > a {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
+#signup {
+  background-color: #ff00ce;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+  border: none;
+  padding: 5px;
+}
+#signup:hover {
+  color: #ff00ce;
+  background-color: white;
+}
+.social-nav {
+  margin-top: 0px;
+  color: white;
+  font-size: 200%;
+  display: inline;
+  margin-left: 62px;
+  text-align: center;
+}
 
+footer {
+	margin-top: -90px;
+}
 body {
   -webkit-font-smoothing: antialiased;
   letter-spacing: .1px;
