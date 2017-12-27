@@ -38,15 +38,33 @@
   }
 }
 
-#signup {
+#signup { 
   background-color: black;
   color: white;
   font-size: 18px;
   margin-top: 10px;
+  margin-right: 0px;
   border: none;
   padding: 5px;
   &:hover{
     color: #ff00ce;
     background-color: white;
   };
+}
+@media(min-width: 768px) {
+ #signup {
+  font-size: 13px;
+  margin-right: -21px;
+}
+}
+@media(max-width: 991px) {
+  #signup {
+    margin-right: -59px;
+  }
+}
+@media(min-width: 991px) {
+  #signup {
+    /*margin-right: -59px;*/
+    font-size: 18px;
+  }
 }
