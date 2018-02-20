@@ -166,6 +166,9 @@ hr.small {
 .get-in-touch {
   font-size: 20px;
 }
+.navbar-brand {
+  margin-top: -12px !important;
+}
 .panel-heading,
 .panel-body {
   padding: 15px 20px 15px 25px;
