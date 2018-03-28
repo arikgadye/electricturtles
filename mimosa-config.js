@@ -37,6 +37,10 @@ exports.config = {
       version: "2.3.32"
     },
     contexts: {
+      turtlemania: {
+        title:"ELECTRIC TURTLES Scripture",
+        desc:"ELECTRIC TURTLES Scripture",
+      },
       press: {
         title:"ELECTRIC TURTLES Contact",
         desc:"ELECTRIC TURTLES Contact",
