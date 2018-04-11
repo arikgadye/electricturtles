@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 @import "base/variables";
@@ -27,9 +28,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .blog {
-  color: white;
+  h2 {color: black}
+  color:  black !important;
   text-align: left;
-  font-family: 'Special Elite', cursive !important;
+  font-family: 'Nunito', sans-serif;
 }
 
 a {
@@ -100,17 +102,17 @@ hr {
 }
 
 .video {
-    height: 0;
-    position: relative;
-    margin-bottom: 10px;
-    padding-bottom: 56.25%; /* Если видео 16/9, то 9/16*100 = 56.25%. Также и с 4/3 - 3/4*100 = 75% */
+  height: 0;
+  position: relative;
+  margin-bottom: 10px;
+  padding-bottom: 56.25%; /* Если видео 16/9, то 9/16*100 = 56.25%. Также и с 4/3 - 3/4*100 = 75% */
 }
 .video iframe {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #ep {
@@ -127,4 +129,19 @@ hr {
 
 .navbar-brand {
   margin-top: -12px !important;
+}
+.turtlemania-page {
+  background-color: white;
+  color: black !important;
+}
+.turtlemania-page nav {
+  background-color: white;
+}
+.turtlemania-page .navbar-nav {
+  & > li > a {
+    color: black;
+  }
+}
+.turtlemania-page .social-nav a {
+  color: black !important;
 }
