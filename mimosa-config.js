@@ -9,7 +9,7 @@ exports.config = {
   "minify-css"],
   copy: {
     extensions:["png", "html","js", "jpg", "ico",
-    "eot", "svg", "ttf", "woff", "woff2", "gif"]
+    "eot", "svg", "ttf", "woff", "woff2", "gif", "tiff"]
   },
   minifyHtml: {
     options: {
@@ -24,7 +24,7 @@ exports.config = {
       progressive: false,
       optimizationLevel: 2
     },
-    exts: [ "gif","jpeg","jpg","png" ]
+    exts: [ "gif","jpeg","jpg","png", "tiff" ]
   },
   rename: {
     map:[
@@ -56,6 +56,11 @@ exports.config = {
       videos: {
         title:"ELECTRIC TURTLES Videos",
         desc:"ELECTRIC TURTLES Videos",
+      },
+
+      turtletimecapsule: {
+        title:"ELECTRIC TURTLES TIME CAPSULE",
+        desc: "GO BACK IN TURTLE TIME",
       },
       index: {
         title:"ELECTRIC TURTLES OFFICIAL WEBSITE",
