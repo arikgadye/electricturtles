@@ -2,11 +2,16 @@
   margin-top: 0px;
   color: white;
   font-size: 200%;
-  display: inline;
+  display: inline-flex !important;
   margin-left: 62px;
   text-align: center;
+
 }
 
 footer {
 	margin-top: -90px;
 }
+
+.social-nav a {
+  	padding-right: 20px;
+  }
