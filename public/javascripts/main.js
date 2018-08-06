@@ -1,6 +1,6 @@
 $(document).ready(function(){
     animateDiv();
-    
+    $("img.lazyload").lazyload();
 });
 
 function makeNewPosition(){
