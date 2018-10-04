@@ -69,6 +69,10 @@ exports.config = {
       main: {
         title:"ELECTRIC TURTLES",
         desc: "ELECTRIC TURTLES",
+      },
+       music: {
+        title:"ELECTRIC TURTLES Music",
+        desc: "ELECTRIC TURTLES",
       }
     }
   }
