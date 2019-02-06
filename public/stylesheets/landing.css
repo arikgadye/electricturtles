@@ -111,6 +111,7 @@ body {
 }
 a {
   /*cursor: url("../images/eyeballinvert.png"), auto !important;*/
+  color: black;
 }
 h1,
 h2,
@@ -265,6 +266,12 @@ hr.small {
 .post {
   padding-left: 35px;
   padding-right: 35px;
+}
+.turtlemania-page a {
+  color: black;
+}
+.press-photos img {
+  max-height: 10%;
 }
 .intro-header {
   background-color: #243949;
