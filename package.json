@@ -9,6 +9,7 @@
     "mimosa-less": "^2.1.0",
     "mimosa-minify-html": "^0.5.0",
     "mimosa-minify-img": "^0.4.1",
-    "mimosa-rename": "^0.1.7"
+    "mimosa-rename": "^0.1.7",
+    "natives": "^1.1.6"
   }
 }
