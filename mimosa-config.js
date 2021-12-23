@@ -73,6 +73,10 @@ exports.config = {
        music: {
         title:"ELECTRIC TURTLES Music",
         desc: "ELECTRIC TURTLES",
+      },
+      epk: {
+        title:"ELECTRIC TURTLES EPK",
+        desc: "ELECTRIC TURTLES",
       }
     }
   }
