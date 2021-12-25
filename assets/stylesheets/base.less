@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
 @import "base/variables";
 @import "base/mixins";
@@ -15,10 +17,10 @@ body {
   -webkit-font-smoothing: antialiased;
   letter-spacing: .1px;
   text-rendering: optimizeLegibility;
-  font-family: 'Bangers', cursive;
+  font-family: 'Fredoka One', cursive;
   font-size: 16px;
   line-height: 1.846;
-  background-color: #d63031;
+  background-color: black;
   color: #666;
   overflow-x: hidden !important;
   /*cursor: url("../images/eyeball.png"), auto !important;*/
@@ -27,17 +29,23 @@ body {
 }
 html, body {
   width: 100%;
-    margin: 44px 0;
-    padding: 0px;
-    overflow-x: hidden; 
+  margin: 44px 0;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 a {
-    /*cursor: url("../images/eyeballinvert.png"), auto !important;*/
-    color: black;
-  };
-h1, h2, h3, h4, h5, h6, p {
-  font-family: 'Bangers', cursive;
-  color: @brand-primary;
+  /*cursor: url("../images/eyeballinvert.png"), auto !important;*/
+  color: black;
+};
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bungee Shade', cursive;
+
+  color: white;
+
+}
+p {
+ font-family: 'Fredoka One', cursive;
+ color: @brand-primary;
 }
 h1 {
   font-size: 100px;
@@ -173,11 +181,11 @@ hr {
     color: #9AAAD3;
   };
 }
-  
+
 .index-page p {
   line-height: 1.2; 
-    font-size: 30px;
-  }
+  font-size: 30px;
+}
 @media (max-width: 765px) {
   .index-page p {
     font-size: 20px;
