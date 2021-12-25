@@ -1,6 +1,6 @@
 .social-nav {
   margin-top: 0px;
-  color: white;
+  color: white !important;
   font-size: 200%;
   display: inline-flex !important;
   margin-left: 62px;
